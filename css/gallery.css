@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+
+}
+
+body {
+  display: block;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+
+.mainheader {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  z-index: 1;
+}
+
+li,
+ul {
+  display: flex;
+  list-style: none;
+  padding-top: 30px;
+  padding-right: 35px;
+  font-size: small;
+  font-weight: bold;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  /* padding: 20%; */
+}
+
+#gallery {
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 65vh;
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+
+.navanchor {
+  color: rgb(255, 255, 255);
+}
+
+.navanchor1 {
+  color: white;
+}
+
+
+nav {
+  display: flex;
+}
+
+
+.footerclass {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.img2 {
+  display: flex;
+  width:33.33%
+
+
+
+
+}
+.head {
+  display: flex;
+}
+
+.h {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2%;
+  background-color: black;
+
+
+}
+
+
+h2 {
+  color: white;
+  font-family: serif;
+  padding: 6%
+
+
+
+}
+
+.name {
+  direction: ltr;
+  letter-spacing: 2px;
+  word-spacing: 20px;
+  color: aqua;
+
+}
+
+#name {
+  position: absolute;
+  color: white;
+  left: 10%;
+  font-size: 1.6cm;
+  font-feature-settings: "aalt";
+  font-family: serif;
+  opacity: 90%;
+}
+
+#logo {
+  position: absolute;
+  top: 12%;
+  left: 7%;
+  size: 10px;
+}
+
+footer {
+  display: block;
+  background-color: #161f1e;
+  position: relative;
+  width: 100%;
+
+}
+
+#mainfooter {
+  padding: 7.5%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+#logo1 {
+  position: absolute;
+  bottom: 60%;
+  left: 7%;
+}
+
+.footerUL {
+  display: inline;
+  font-weight:500;
+
+}
+
+
+.footercontent {
+  display: flex;
+  position: relative;
+  padding: 8%;   /*perfect padding*/
+
+}
+
+.footerUL li {
+  padding-top :8px; /*perfect padding*/
+
+}
+
+.imgContain {
+  width: 33%;
+}
+#copyright {
+
+  color:darkgray;
+  position: absolute;
+  bottom: 17%;
+  left: 6%;
+  font-size: small;
+  
+}
+#one{
+  color: darkgrey;
+  font-size: small;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width:600px) {
+  .imgContain {
+    width: 50%;
+  }
+
+}
