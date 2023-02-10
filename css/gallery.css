@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0%;
-
 }
 
 body {
@@ -10,107 +9,40 @@ body {
   margin: 0%;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 header {
   display: flex;
   justify-content: end;
   position: relative;
 }
 
-
 .mainheader {
-  display: flex;
-  justify-content: end;
   position: absolute;
   z-index: 1;
+  margin-right: 100px;
 }
 
-li,
-ul {
-  display: flex;
-  list-style: none;
-  padding-top: 30px;
-  padding-right: 35px;
-  font-size: small;
-  font-weight: bold;
-
-
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  /* padding: 20%; */
-}
-
-#gallery {
-
-  display: flex;
-  position: relative;
-  align-items: center;
-  height: 65vh;
-  overflow: hidden;
-  /* width: 100%; */
-}
-
-
-.navanchor {
-  color: rgb(255, 255, 255);
-}
-
-.navanchor1 {
-  color: white;
-}
-
-
-nav {
-  display: flex;
-}
-
-
-.footerclass {
-  position: relative;
-  overflow: hidden;
-}
-
-
-.img2 {
-  display: flex;
-  width:33.33%
-
-
-
-
-}
-.head {
-  display: flex;
-}
-
-.h {
-  display: flex;
-  justify-content: center;
+.namingbar {
+  margin-top: 50px;
   width: 100%;
-  padding: 2%;
-  background-color: black;
-
-
 }
 
-
-h2 {
-  color: white;
-  font-family: serif;
-  padding: 6%
-
-
-
+.navbar {
+  padding: 15px;
+  font-size: small;
+  font-weight: 500;
 }
 
-.name {
-  direction: ltr;
-  letter-spacing: 2px;
-  word-spacing: 20px;
-  color: aqua;
-
+#logo {
+  position: absolute;
+  top: 12%;
+  left: 7%;
+  width: auto;
+  height: auto;
 }
 
 #name {
@@ -118,32 +50,80 @@ h2 {
   color: white;
   left: 10%;
   font-size: 1.6cm;
-  font-feature-settings: "aalt";
   font-family: serif;
-  opacity: 90%;
+  opacity: 80%;
 }
 
-#logo {
-  position: absolute;
-  top: 12%;
-  left: 7%;
-  size: 10px;
+#gallery {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.mainarticle {
+
+  margin: 0%;
+  padding: 0%;
+}
+
+.bodyimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+}
+
+.bodysub {
+  width: 33.33%;
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  padding: 8% 25% 8% 25%;
 }
 
 footer {
-  display: block;
   background-color: #161f1e;
-  position: relative;
-  width: 100%;
-
-}
-
-#mainfooter {
-  padding: 7.5%;
   position: relative;
   width: 100%;
   display: flex;
   justify-content: end;
+  padding: 12% 1% 12% 11%;
+}
+
+.mainfooter {
+
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  padding-left: 3%;
+}
+
+
+.navanchor {
+  color: rgb(255, 255, 255);
+
+  padding: 3px;
+}
+
+#firstdiv {
+  margin-right: 10%;
+}
+
+#get {
+  color: darkgrey;
+  font-size: small;
+  font-weight: bold;
 }
 
 #logo1 {
@@ -152,46 +132,22 @@ footer {
   left: 7%;
 }
 
-.footerUL {
-  display: inline;
-  font-weight:500;
-
-}
-
-
-.footercontent {
-  display: flex;
-  position: relative;
-  padding: 8%;   /*perfect padding*/
-
-}
-
-.footerUL li {
-  padding-top :8px; /*perfect padding*/
-
-}
-
-.imgContain {
-  width: 33%;
-}
 #copyright {
 
-  color:darkgray;
+  color: darkgray;
   position: absolute;
   bottom: 17%;
   left: 6%;
   font-size: small;
-  
-}
-#one{
-  color: darkgrey;
-  font-size: small;
-  font-weight: bold;
-}
 
+}
 
 @media screen and (max-width:600px) {
-  .imgContain {
+  .bodysub {
+    width: 100%;
+  }
+
+  .mainfooter {
     width: 50%;
   }
 
