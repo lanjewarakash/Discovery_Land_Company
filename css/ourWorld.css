@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  border: solid navy;
+}
+
+.mainheader {
+ display: flex;
+ justify-content:end ;
+  margin-right: 100px;
+}
+
+.navbar {
+  padding: 15px;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+#logo {
+  left: 7%;
+  position: absolute;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 140px; 
+}
+
+.name1 {
+    display: flex;
+}
+
+h5 {
+    display: flex;
+    color: white;
+    display: inline;
+    padding: 2%;
+}
+
+.element {
+    width: 25%;
+    padding: 0.6%;
+    text-decoration: none;
+    padding-bottom: 50px;
+    margin: 0%;
+}
+
+p{
+  color: gray;
+}
+
+footer {
+  background-color: #161f1e;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 12% 1% 12% 11%;
+}
+
+.mainfooter {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 3%;
+}
+
+.navanchor {
+  color: rgb(255, 255, 255);
+  padding: 3px;
+}
+
+#firstdiv {
+  margin-right: 10%;
+}
+
+#get {
+  color: darkgrey;
+  font-size: small;
+  font-weight: bold;
+}
+
+#logo1 {
+  position: absolute;
+  bottom: 60%;
+  left: 7%;
+}
+
+#copyright {
+  color: darkgray;
+  position: absolute;
+  bottom: 17%;
+  left: 6%;
+  font-size: small;
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .element {
+        width: 100%;
+    }
+    
+      .mainfooter {
+        width: 50%;
+      }
+      
+      header{
+        width: 100%;
+      }
+    }
+
+
+
+  
+  
