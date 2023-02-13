@@ -1,0 +1,345 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.mainheader {
+    position: relative;
+    top: 0%;
+
+    display: flex;
+
+}
+
+.videodiv {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 3%;
+    left: 7%;
+
+}
+
+.navbar {
+    position: absolute;
+
+    display: flex;
+    width: 100%;
+
+}
+
+ul {
+    width: 100%;
+
+    margin-right: 10%;
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+li {
+
+    padding-left: 4%;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+
+.article {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(218, 217, 217);
+}
+
+.articlefirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: gt-sectra;
+    margin-top: 55%;
+    background-color: white;
+
+}
+
+.articlefirst p {
+    padding: 0.5%;
+}
+
+.articlesecond {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse; 
+    align-items: center;
+    background-color: white;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 12%;
+
+}
+
+.content1 h3 {
+    font-size: xx-large;
+    font-family: gt-sectra;
+    font-weight: lighter;
+    padding-bottom: 8%;
+}
+
+.content1para {
+    color: grey;
+    font-family: calibri;
+}
+
+.content2 {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.articlethird {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.thirdimg {
+    position: relative;
+    margin-left: 1%;
+    z-index: 1;
+
+}
+
+.content3 {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 7%;
+    z-index: 2;
+    width: 35%;
+    padding: 4%;
+    padding-bottom: 10%;
+
+}
+
+.content31 {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    left: 8%;
+    padding: 4%;
+    width: 30%;
+}
+
+.content3 h2 {
+    font-size: xx-large;
+    font-family: gt-sectra;
+    font-weight: lighter;
+    padding-bottom: 8%;
+}
+
+.content3para {
+    color: grey;
+    font-family: calibri;
+}
+
+.content3btn {
+    margin-top: 15%;
+    padding-bottom: 5%;
+}
+
+button {
+    font-size: x-small;
+    padding: 5% 15% 5% 15%;
+    background-color: white;
+    border: rgb(188, 181, 181) solid;
+
+}
+
+.articlefourth {
+
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    position: relative;
+
+}
+
+.fourthimg {
+
+    display: flex;
+    position: relative;
+    left: 22%;
+}
+
+
+.articlefifth {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+
+}
+
+h2 {
+
+    font-family: gt-sectra;
+    font-weight: lighter;
+    padding-bottom: 8%;
+
+}
+
+.fifthimg {
+    width: 75%;
+}
+
+.lastimg {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.textcontent {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.news {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    z-index: 1;
+    color: white;
+    font-family: gt-sectra;
+    font-size: x-large;
+    font-weight: lighter;
+
+}
+
+footer {
+    background-color: #161f1e;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 12% 1% 12% 11%;
+}
+
+.mainfooter {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 3%;
+}
+
+.navanchor {
+    color: rgb(255, 255, 255);
+    padding: 3px;
+}
+
+#firstdiv {
+    margin-right: 10%;
+}
+
+#get {
+    color: darkgrey;
+    font-size: small;
+    font-weight: bold;
+}
+
+#logo1 {
+    position: absolute;
+    bottom: 60%;
+    left: 7%;
+}
+
+#copyright {
+    color: darkgray;
+    position: absolute;
+    bottom: 17%;
+    left: 6%;
+    font-size: small;
+
+}
+
+@media screen and (max-width: 600px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .articlefirst {
+        margin-top: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #news {
+        width: 10%;
+    }
+
+    .mainheader {
+        width: 100%;
+
+    }
+
+    .mainfooter {
+        width: 100%;
+    }
+
+    .videodiv {
+        width: 100%;
+
+    }
+
+    .fifthimg {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}
